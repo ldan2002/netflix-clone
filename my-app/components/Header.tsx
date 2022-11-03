@@ -1,3 +1,4 @@
+
 import { BsSearch } from 'react-icons/bs'
 import { AiFillBell } from 'react-icons/ai'
 import Link from 'next/link'
@@ -29,6 +30,7 @@ function Header() {
             </div>
         </header>
     )
+
 }
 
 export default Header
