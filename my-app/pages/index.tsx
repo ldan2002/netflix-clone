@@ -4,15 +4,13 @@ import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <>
-      <div className="" >
       <Head>
         <title>
           Home - Netflix
         </title>
         <link rel="icon" href="/favicon.ico"></link>
       </Head>
-      <Header />
+
       <main>
         {/* Banner */}
         <section>
@@ -26,7 +24,7 @@ const Home: NextPage = () => {
       </main>
       {/* Modal */}
     </div>
-    </>
+
   )
 }
 
