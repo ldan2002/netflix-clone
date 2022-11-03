@@ -1,4 +1,6 @@
-
+import { BsSearch } from 'react-icons/bs'
+import { AiFillBell } from 'react-icons/ai'
+import Link from 'next/link'
 
 function Header() {
     return (
@@ -20,7 +22,10 @@ function Header() {
                 </ul>
             </div>
             <div>
-                
+                <BsSearch className='hidden h-6 w-6 sm:inline ' />
+                <p className='hidden lg:inline'>Kids</p>
+                <AiFillBell className='h-6 w-6' />
+
             </div>
         </header>
     )
